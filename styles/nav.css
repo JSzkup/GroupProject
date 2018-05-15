@@ -77,7 +77,7 @@ header h1 {
 }
 
 #nav_list ul li a:hover, #nav_list ul li a:focus {
-    color: yellow;
+    color: rgb(219, 219, 5);
 }
 
 /*#nav_list ul {
