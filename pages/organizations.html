@@ -12,6 +12,15 @@
         <link rel="normalizer" href="../styles/normalize.css">
         <link rel="stylesheet" href="../styles/nav.css">
         <link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/slicknav.css">
+    	
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    	<script src="../js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_list').slicknav({prependTo:"#mobile_menu"});
+    	});
+		</script>
     </head>
 
     <body>
@@ -31,7 +40,7 @@
             </nav>
 
             <h1>Organizations</h1>
-
+			<nav id="mobile_menu"></nav>
             <nav id="nav_list">
                 <ul>
                     <li><a href="../index.html">Home</a></li>

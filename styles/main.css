@@ -39,3 +39,35 @@ body div {
 	padding-right: 30%;
 }
 
+/* hide the mobile menu; Nick B did this 
+@media only screen and (max-width: 1280px) {
+	
+#mobile_menu { display: none; }
+#nav_list { display: none;}
+}
+
+
+/* display the mobile menu; Nick B did this 
+@media only screen and (max-width: 375px) {
+	
+#mobile_menu { display: block;}
+img {
+	display: none;
+	font-size: 45%;
+}
+}
+*/
+
+#mobile_menu{
+	display: none;
+  }
+  
+@media only screen and (max-width: 667px) {
+	#nav_list {
+ 		display: none;
+	}
+  
+	#mobile_menu{
+ 		display: block;
+	}
+}

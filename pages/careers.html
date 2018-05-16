@@ -12,6 +12,46 @@
         <link rel="normalizer" href="../styles/normalize.css">
         <link rel="stylesheet" href="../styles/nav.css">
         <link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/slicknav.css">
+    	
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    	<script src="../js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_list').slicknav({prependTo:"#mobile_menu"});
+    	});
+		</script>
+		
+		<style>
+		
+			main ul li {
+			padding-left: 5%;
+			list-style-type: none;
+			padding-bottom: 1%;
+			}
+			
+			table {
+			border-collapse: collapse;
+			border: 1px solid black;
+			margin-left: 15%;
+			margin-right: 15%;
+			font-size: 80%;
+			}
+			
+		    thead, tfoot {
+			background-color: #13589b;
+			color: white;
+			font-weight: bold;
+			border: 1px solid black;
+			}
+			
+		    th, td {
+			padding: 2em 5em;
+			text-align: right;
+			border: 1px solid black;
+			font-size: 110%;
+			}
+		</style>
     </head>
 
     <body>
@@ -31,7 +71,7 @@
             </nav>
 
             <h1>Careers</h1>
-
+			<nav id="mobile_menu"></nav>
             <nav id="nav_list">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
@@ -45,8 +85,94 @@
         </header>
 
         <main>
+			<h1>Internships</h1>
 
-            <!--copy/paste some paragraphs off of Hofstra accounting carrers page-->
+				<p>The Department of Accounting, Taxation and Legal Studies in Business encourages students to pursue internships to get valuable real-world experience and build a professional network that can help you stand out in a competitive job market. According to the 2015-2016 Cap &amp; Gown Graduate Survey, 68% of respondents from the Zarb School of Business completed at least one internship before they graduated.</p><br>
+				
+				<h1>Our students have completed internships at various firms, including:</h1><br>
+				
+					<ul>
+						<li>Ernst &amp; Young LLP (EY)</li>
+                        <li>Grant Thornton LLP</li>
+                        <li>Hollister</li>
+                        <li>Nassau County Offices of Health Services</li>
+                        <li>New York Tax</li>
+                        <li>PricewaterhouseCoopers (PwC)</li>
+                        <li>United States District Court</li>
+                        <li>Young &amp; Rubicam (Y&amp;R)</li>
+					</ul>
+					
+					
+					<img src="../images/intern.jpg" alt="intern" height="360" ><br>
+					
+			<h1>Career Potential</h1>
+
+				<p>Among our 2015-2016 graduates who earned a bachelor’s degree from the Department of Accounting, Taxation and Legal Studies in Business, 96% of the respondents report that within one year of graduation they were employed or attending/planning to attend graduate school. Among those who reported salary, the average annual self-reported salary was $57,109.</p><br>
+				
+				<p>Recent graduates from the Department of Accounting, Taxation and Legal Studies in Business who reported attending or planning to attend graduate school are attending institutions including Fordham University and St. John’s University, among others.</p>
+				
+				<p><b>Those who are employed report working in the following jobs and organizations:</b></p>
+
+				<ul>
+					<li>BDO USA LLP</li>
+					<li>Deloitte &amp; Touche LLP</li>
+					<li>Ernst &amp; Young LLP (EY)</li>
+					<li>Grant Thornton LLP</li>
+					<li>HBO</li>
+					<li>Henry Schein</li>
+					<li>JP Morgan Chase &amp; Co.</li>
+					<li>KPMG</li>
+					<li>ricewaterhouseCoopers (PwC)</li>
+				</ul>
+				
+				<table>
+					<thead>
+						<tr>
+							<th colspan="3">A sampling of some of the careers available to Hofstra Accounting and Legal Studies in Business Graduates</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>Certified Public Accountant</td>
+							<td>Controller</td>
+							<td>Internal Auditor</td>
+						</tr>
+						
+						<tr>
+							<td>Tax Accountant</td>
+							<td>Forensic Accountant</td>
+							<td>FBI Agent</td>
+						</tr>
+						
+						<tr>
+							<td>Chief Financial Officer</td>
+							<td>Treasurer</td>
+							<td>Systems Analyst</td>
+						</tr>
+						
+						<tr>
+							<td>Financial Analyst</td>
+							<td>Management Consultant</td>
+							<td>Cost Accountant</td>
+						</tr>
+						
+						<tr>
+							<td>Personal Financial Planner</td>
+							<td>Not-for-Profit Accountant</td>
+							<td>Governmental Accountant</td>
+						</tr>
+						
+						<tr>
+							<td>Business Educator</td>
+							<td>Risk Manager</td>
+							<td>Legal Auditor</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				
 
         </main>
 
