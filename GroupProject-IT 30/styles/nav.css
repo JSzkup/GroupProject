@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Hofstra Nav Bar */
+
+#nav_menu ul {
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	background-color: #13589b;
+	
+	}
+	
+#nav_menu ul li {
+	display: inline;
+	border-right: 1px solid black;
+	}
+	
+#nav_menu ul li a {
+	font-size: 110%;
+	text-decoration: none;
+	color: white; 
+	padding-right: 2%;
+	padding-left: 2%;
+	}
+	
+#nav_menu .lastmenu ul li .lastmenu {
+	border-right: none;
+}
+
+#nav_menu ul li a:hover, #nav_list ul li a:focus {
+    color: yellow;
+}
+
+/* Department Header */
+header h1 {
+    padding: 2%;
+    color: black; 
+    text-align: center;
+}
+
+
+
+/* Department Nav Bar */
+#nav_list {
+    margin: 0 auto;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#nav_list ul {
+    list-style-type: none;
+    padding-top: .5%;
+    width: 100%;
+}
+
+#nav_list ul li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    border-right: 1px solid black;
+}
+
+#nav_list ul li a {
+	text-align: center;
+	padding: 1em 1%;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+#nav_list ul li a.lastmenu {
+	border-right: none;
+}
+
+#nav_list ul li a:hover, #nav_list ul li a:focus {
+    color: rgb(219, 219, 5);
+}
+
+/*#nav_list ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#nav_list ul li {
+	display: inline;
+	border-right: 1px solid black;
+}
+
+#nav_list ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 110%;
+	color: black;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+#nav_list ul li a:hover, #nav_list ul li a:focus {
+    color: yellow;
+}
+
+.lastlist ul li .lastlist {
+	border-right: none;
+}
+*/
+footer {
+	text-align: center;
+    padding: 1% 1%;
+    clear: both;
+}

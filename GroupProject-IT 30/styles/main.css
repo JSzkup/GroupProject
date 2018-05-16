@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: lightblue;
+}
+
+header img{
+	padding-bottom: 2%;
+}
+
+body {
+	margin: auto;
+	width: 90%;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 110%;
+
+    background: white;
+    
+    border: 2px solid black;
+}
+
+main img {
+    float:right;
+    padding: 1.5% 1.5%;
+}
+
+main p {
+    padding: 1.5% 5%;
+}
+
+main h1 {
+	padding-left: 1.5%;
+}
+
+body div {
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+/* hide the mobile menu; Nick B did this */
+@media only screen and (max-width: 1280px) {
+	
+#mobile_menu { display: none; }
+#nav_list { display: none;}
+}
+
+
+/* display the mobile menu; Nick B did this */
+@media only screen and (max-width: 375px) {
+	
+#mobile_menu { display: block;}
+img {
+	display: none;
+font-size: 45%;
+}
