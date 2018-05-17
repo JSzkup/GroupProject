@@ -40,6 +40,10 @@ body div {
 	padding-bottom: 2%;
 }
 
+.bul {
+	padding: 2% 9% 2% 9%;
+	}
+
 /* hide the mobile menu; Nick B did this 
 @media only screen and (max-width: 1280px) {
 	

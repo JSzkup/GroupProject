@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #13589b;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="../images/profiles/6751.jpg" border="1" width="50" height="100" style="max-width:100%; height:auto" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+     </div>
+
+ <h3><a href="https://www.hofstra.edu/faculty/fac_profiles.cfm?id=6751&t=/Academics/Colleges/Zarb/ACCT/">Dr. John Castonguay</a></h3></br>
+    <strong>OFFICE</strong><br>
+						201 Weller Hall
+						<hr class="dashline">
+					<strong>VOICE</strong><br>
+						(516) 463-4703
+						<hr class="dashline">
+					<a href="John.Castonguay@hofstra.edu"><strong>Email</strong></a>
+						<hr class="dashline">
+</div>
+</body>
+</html>
